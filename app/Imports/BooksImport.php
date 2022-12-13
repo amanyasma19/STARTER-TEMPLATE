@@ -16,7 +16,7 @@ class BooksImport implements WithHeadingRow, ToModel
     public function model(array $row)
     {
         return new Book([
-            //
+            
             'judul' => $row['judul'],
             'penulis' => $row['penulis'],
             'tahun' => $row['tahun'],
